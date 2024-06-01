@@ -4,7 +4,7 @@
 #   Author: ptpt52
 #=================================================
 
-name: x-wrt-master=ramips-mt7621
+name: x-wrt-24.04_b202405241202=ramips-mt7621
 
 on: 
   release:
@@ -83,5 +83,5 @@ jobs:
     - name : Upload artifact
       uses: actions/upload-artifact@v3
       with:
-        name: x-wrt-master=ramips-mt7621
+        name: x-wrt-24.04_b202405241202=ramips-mt7621
         path: x-wrt/rom/
